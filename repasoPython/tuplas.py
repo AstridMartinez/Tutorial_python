@@ -1,12 +1,34 @@
+#Tupla vasia---------------------------------------
+tupla_vacia = tuple()
+print(tupla_vacia)
+
+#Tupla con elementos-------------------------------
+# utilizando paréntesis
+tupla_numeros = (1, 2, 3, 4, 5)
+print(tupla_numeros)
+
+# utilizando la función tuple()
+tupla_frutas = tuple(("manzana", "banana", "cereza"))
+print(tupla_frutas)
+
+#tupla de un elemento------------------------------------
+tupla_un_elemento = ("hola",)
+print(tupla_un_elemento)  # Output: ('hola',)
+
+#tupla de rango
+tupla_rango = tuple(range(1, 5))
+print(tupla_rango)
+
+#Tupla de desempaquetado
+tupla_desempaquetada = (1, "hola", True)
+a, b, c = tupla_desempaquetada
+print(a)
+print(b)
+print(c)
+
 #Tuplas anidadas---------------------------------------
-mi_tupla = (1, 2, (3, 4), 5, (6, 7, 8))
-primer_elemento = mi_tupla[0]
-segundo_elemento = mi_tupla[1]
-tercer_elemento = mi_tupla[2]
-cuarto_elemento = mi_tupla[2][0]
-quinto_elemento = mi_tupla[2][1]
-sexto_elemento = mi_tupla[4][2]
-print(mi_tupla)
+tupla_anidada = ((1, 2, 3), (4, 5, 6), (7, 8, 9))
+print(tupla_anidada)
 
 #Creación de una tupla-----------------------------------
 mi_tupla = (1, 2, 3, 4)

@@ -1,5 +1,5 @@
 #Conversión de datos
-#Conversión de tipos numérico
+#Conversión de tipos numérico---------------------------
 # int()
 x = int(3.14)
 print(x)
@@ -48,7 +48,7 @@ print(h)
 i = int(False)
 print(i)
 
-#Conversion tipos de secuencia
+#Conversion tipos de secuencia--------------------
 # bytearray()
 j = bytearray("hello", "utf-8")
 print(j)

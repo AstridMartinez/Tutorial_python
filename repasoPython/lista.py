@@ -1,9 +1,9 @@
 
-# lista vacia--------------------------
+# lista vacia----------------------------
 lista_vacia = list()
 print(lista_vacia)
 
-#Lista anidada
+#Lista anidada-----------------------------
 lista_anidada = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
 print(lista_anidada)
 
@@ -11,11 +11,11 @@ print(lista_anidada)
 lista_comprension = [x*2 for x in range(5)]
 print(lista_comprension)
 
-#lista de cadena
+#lista de cadena-----------------------------
 lista_cadenas = ["Hola", "Mundo", "!"]
 print(lista_cadenas)
 
-#lista de objetos
+#lista de objetos------------------------------
 class Persona:
     def __init__(self, nombre, edad):
         self.nombre = nombre
@@ -33,7 +33,6 @@ class Nodo:
     def __init__(self, dato=None, siguiente=None):
         self.dato = dato
         self.siguiente = siguiente
-
 class ListaEnlazada:
     def __init__(self):
         self.primero = None
