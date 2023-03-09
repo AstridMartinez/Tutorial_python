@@ -1,3 +1,33 @@
+
+# lista vacia--------------------------
+lista_vacia = list()
+print(lista_vacia)
+
+#Lista anidada
+lista_anidada = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+print(lista_anidada)
+
+#lista de comprencion-----------------------
+lista_comprension = [x*2 for x in range(5)]
+print(lista_comprension)
+
+#lista de cadena
+lista_cadenas = ["Hola", "Mundo", "!"]
+print(lista_cadenas)
+
+#lista de objetos
+class Persona:
+    def __init__(self, nombre, edad):
+        self.nombre = nombre
+        self.edad = edad
+
+p1 = Persona("Juan", 25)
+p2 = Persona("María", 30)
+
+lista_objetos = [p1, p2]
+print(lista_objetos[0].nombre)
+
+
 #lista enlazada----------------------------------
 class Nodo:
     def __init__(self, dato=None, siguiente=None):
