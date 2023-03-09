@@ -1,23 +1,58 @@
 #Conversión de datos
-#Conversión de cadenas a números enteros o flotantes----------------
-num_entero = int("10")
-num_flotante = float("3.1416")
-print(num_entero)
-print(num_flotante)
+#Conversión de tipos numérico
+# int()
+x = int(3.14)
+print(x)
 
-#Conversión de números a cadenas------------------------------------
-num = 123
-cadena = str(num)
-print(cadena)
+# float()
+y = float("2.5")
+print(y)
 
-#De lista a cadena----------------------------------------------------
-lista = ['H', 'o', 'l', 'a']
-cadena = "".join(lista)
-print(cadena)
+# complex()
+z = complex(3, 4)
+print(z)
 
-#Conversión de enteros a binarios o hexadecimales---------------------
-num_entero = 40
-num_binario = bin(num_entero)
-num_hexadecimal = hex(num_entero)
-print(num_binario)
-print(num_hexadecimal)
+#Conversion tipos de datos---------------------------------
+# str()
+a = str(123)
+print(a)
+
+# list()
+b = list((1, 2, 3))
+print(b)
+
+# tuple()
+c = tuple([4, 5, 6])
+print(c)
+
+# set()
+d = set([1, 1, 2, 2, 3, 3])
+print(d)
+
+# dict()
+e = dict([('one', 1), ('two', 2)])
+print(e)
+
+#Conversion de booleanos------------------------
+# bool()
+f = bool(1)
+print(f)
+
+g = bool("")
+print(g)
+
+# int()
+h = int(True)
+print(h)
+
+i = int(False)
+print(i)
+
+#Conversion tipos de secuencia
+# bytearray()
+j = bytearray("hello", "utf-8")
+print(j)
+
+# bytes()
+k = bytes([0, 1, 2, 3])
+print(k)
